@@ -1,6 +1,6 @@
-import { DEFAULT_PAGE, DEFAULT_PAGE_SIZE } from "../config.js";
+import { DEFAULT_PAGE, DEFAULT_PAGE_SIZE } from "../../config/pagination.js";
+import { pokeData } from "../data/loadData.js";
 import { applyPagination } from "../enhancePaginationAndSort.js";
-import { pokeData } from "../loadData.js";
 
 export default function pokedexEvolutions({ evo_match }) {
   if (!evo_match) return [];

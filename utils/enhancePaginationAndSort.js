@@ -1,6 +1,6 @@
 // enhancedPaginationAndSort.js
 
-import { DEFAULT_PAGE_SIZE, DEFAULT_PAGE } from "./config.js";
+import { DEFAULT_PAGE_SIZE, DEFAULT_PAGE } from "../config/pagination.js";
 
 /**
  * Parse les options de tri à partir d'une chaîne.

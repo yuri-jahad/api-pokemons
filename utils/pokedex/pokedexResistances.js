@@ -1,6 +1,6 @@
-                         
-import { pokeData } from "../loadData.js";
-import { DEFAULT_PAGE_SIZE, DEFAULT_PAGE } from "../config.js";
+import { DEFAULT_PAGE_SIZE, DEFAULT_PAGE } from "../../config/pagination.js";
+import { pokeData } from "../data/loadData.js";
+
 
 const EPSILON = 0.000001;
 

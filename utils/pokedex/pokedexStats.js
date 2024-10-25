@@ -5,8 +5,8 @@
  * comparer plusieurs Pokémon entre eux, et générer un classement global.
  */
 
+import { pokeData } from "../data/loadData.js";
 import { paginationAndSort } from "../enhancePaginationAndSort.js";
-import { pokeData } from "../loadData.js";
 
 /** Multiplicateur pour le score de résistance */
 const RESISTANCE_MULTIPLIER = 10;

@@ -1,8 +1,8 @@
 // pokedexSearch.js
 
-import { pokeData } from "../loadData.js";
-import { DEFAULT_LANGUAGE } from "../config.js";
 import { paginationAndSort } from "../enhancePaginationAndSort.js";
+import { DEFAULT_LANGUAGE } from "../../config/pagination.js";
+import { pokeData } from "../data/loadData.js";
 
 const getSortValue = (pokemon, key, language) => {
   switch (key) {
